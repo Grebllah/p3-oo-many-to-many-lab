@@ -139,6 +139,7 @@ def test_author_can_sign_contract():
     Author.all = []
     Book.all = []
     Contract.all = []
+    
 def test_author_has_total_royalties():
     """Test Author class has method total_royalties that gets the sum of all its related contracts' royalties"""
     author = Author("Name")
